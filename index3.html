@@ -1,0 +1,111 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+.directionmap
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+
+.pter
+    {
+      position: absolute;
+      top: 360px;
+      right: 60px;
+  width:20%;
+  height: auto;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#f1 {
+    background-color: lightblue;
+}
+#f2 {
+    -webkit-animation-delay: -4s;
+    background-color: yellow;
+}
+#f3 {
+    -webkit-animation-delay: -2s;
+    background-color: lightgreen;
+
+    }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  height: auto;
+}
+
+.text{
+        display: block;
+        }
+
+.Redo
+    {
+  border: none;
+  padding: 14px 22px;
+  font-size: 16px;
+  cursor: pointer;
+      position: absolute;
+      top: 545px;
+      right: 310px;
+}
+   
+</style>
+</head>
+<body>
+<a href="index.html"><button class="Redo">RESET</button></a>
+<div class="text">
+<h1> <b>
+HOW TO USE THE INTERACTIVE MAP </b>
+</h1>
+<b> 1. Follow the the map to find the fossil.
+</b>
+<br>
+<br>
+<b> 2. Collect the dinosaur card.
+</b>
+<br>
+<br>
+<b> 3. Click the dinosaur icon to move on to the next adventure.
+</b>
+<br>
+<br>
+<b> Note: press reset button to redo the step !
+</b>
+
+</div>
+<p>
+ <a href="index3.html">
+  <img src="ptermap.png" class="pter" alt="PterDirection" width="100" height="100">
+ </a>
+</p>
+<img src="map.png" class="driectionmap" alt="Direction" width="800" height="666">
+</body>
+</html>
